@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>fundamentos_align-items</title>
 
     <style>
        .container{
@@ -19,7 +19,7 @@
             text-align: center;
             color: white;
             flex: 1;
-                    }
+           }
         
         .flex-start{
             justify-content: space-around;
@@ -44,6 +44,26 @@
         .baseline{
             align-items: baseline;
         }
+
+        h1{
+            font-style: italic;
+        }
+
+        .column{
+            flex-direction: column;
+        }
+
+        .central{
+            height: 400px;
+            justify-content: center;
+        }
+
+        .central .item{
+            flex: 0;
+            padding: 20px;
+            
+        }
+    
 
    
 
@@ -100,5 +120,77 @@
         <div class="item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus explicabo ipsa impedit beatae aspernatur repellendus, consequuntur, enim sint velit laboriosam laudantium ullam est doloremque facere quam quas soluta autem recusandae!</div>
 
     </section>
+    <br><br><br><br>
+    <h1>-----COLUMN-----</h1>
+
+</section>
+
+<h1>flex-start</h1>
+<section class="container start column">
+    <div class="item">Lorem ipsum dolor </div>
+    <div class="item">sit amet consectetur adipisicing elit. </div>
+    <div class="item">Corrupti consectetur harum, doloremque cum, minima quo sunt </div>
+    <div class="item">asperiores assumenda ipsa voluptatem eveniet numquam. Dolor deleniti, autem blanditiis quod rem odit animi.</div>
+    <div class="item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus explicabo ipsa impedit beatae aspernatur repellendus, consequuntur, enim sint velit laboriosam laudantium ullam est doloremque facere quam quas soluta autem recusandae!</div>
+
+</section>
+<br><br>
+<h1>flex-end</h1>
+<section class="container end column">
+    <div class="item">Lorem ipsum dolor </div>
+    <div class="item">sit amet consectetur adipisicing elit. </div>
+    <div class="item">Corrupti consectetur harum, doloremque cum, minima quo sunt </div>
+    <div class="item">asperiores assumenda ipsa voluptatem eveniet numquam. Dolor deleniti, autem blanditiis quod rem odit animi.</div>
+    <div class="item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus explicabo ipsa impedit beatae aspernatur repellendus, consequuntur, enim sint velit laboriosam laudantium ullam est doloremque facere quam quas soluta autem recusandae!</div>
+
+</section>
+
+<h1>center</h1>
+    <section class="container center column">
+        <div class="item">Lorem ipsum dolor </div>
+        <div class="item">sit amet consectetur adipisicing elit. </div>
+        <div class="item">Corrupti consectetur harum, doloremque cum, minima quo sunt </div>
+        <div class="item">asperiores assumenda ipsa voluptatem eveniet numquam. Dolor deleniti, autem blanditiis quod rem odit animi.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus explicabo ipsa impedit beatae aspernatur repellendus, consequuntur, enim sint velit laboriosam laudantium ullam est doloremque facere quam quas soluta autem recusandae!</div>
+
+    </section>
+    <br><br>
+    <h1>stretch</h1>
+    <section class="container stretch column">
+        <div class="item">Lorem ipsum dolor </div>
+        <div class="item">sit amet consectetur adipisicing elit. </div>
+        <div class="item">Corrupti consectetur harum, doloremque cum, minima quo sunt </div>
+        <div class="item">asperiores assumenda ipsa voluptatem eveniet numquam. Dolor deleniti, autem blanditiis quod rem odit animi.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus explicabo ipsa impedit beatae aspernatur repellendus, consequuntur, enim sint velit laboriosam laudantium ullam est doloremque facere quam quas soluta autem recusandae!</div>
+    </section> 
+    
+    <br><br>
+
+    <h1>baseline</h1>
+    <section class="container baseline column">
+        <div class="item">um</div>
+        <div class="item">sit amet consectetur adipisicing elit. </div>
+        <div class="item">Corrupti consectetur harum, doloremque cum, minima quo sunt </div>
+        <div class="item">asperiores assumenda ipsa voluptatem eveniet numquam. Dolor deleniti, autem blanditiis quod rem odit animi.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus explicabo ipsa impedit beatae aspernatur repellendus, consequuntur, enim sint velit laboriosam laudantium ullam est doloremque facere quam quas soluta autem recusandae!</div>
+
+    </section>
+    <br><br><br>
+
+    <h1>-----Alinhamento central a tela-----</h1>
+    <section class="container center central">
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, quae voluptas est modi aliquid itaque ratione odio
+
+        </div>
+
+    </section>
+    
+
+
+
+
+
+
 </body>
 </html>
