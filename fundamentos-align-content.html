@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fundamentos_align-items</title>
+
+    <style>
+        .container{
+            height: 400px;
+            max-width: 350px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+
+        .item{
+            background-color: orangered;
+            padding: 0 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+            margin: 5px;
+        }
+
+        .stretch{
+            align-content: stretch;
+
+        }
+
+        .center{
+            align-content: center;
+
+        }
+
+        .flex-start{
+            align-content: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <p></p>
+    <div class="container">
+        <div class="item">Lorem ipsum dolor sit amet consectetur </div>
+        <div class="item">adipisicing elit. Pariatur, </div>
+        <div class="item">facere vitae ex officiis ea quas</div>
+        <div class="item"> voluptatem asperiores suscipit exercitationem nemo</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur </div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur </div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur </div>
+    </div>
+
+</body>
+</html>
