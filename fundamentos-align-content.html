@@ -9,8 +9,7 @@
     <style>
         .container{
             height: 400px;
-            max-width: 350px;
-            margin: 0 auto;
+            max-width: 350px; 
             display: flex;
             flex-wrap: wrap;
             border: 1px solid black;
@@ -38,11 +37,22 @@
         .flex-start{
             align-content: flex-start;
         }
+        .chuchu{
+            align-content: flex-end;
+        }
+
+        .space-around{
+            align-content: space-around;
+        }
+
+        .space{
+            align-content: space-between;
+        }
     </style>
 </head>
 <body>
-    <p></p>
-    <div class="container">
+    <p>stretch</p>
+    <div class="container stretch">
         <div class="item">Lorem ipsum dolor sit amet consectetur </div>
         <div class="item">adipisicing elit. Pariatur, </div>
         <div class="item">facere vitae ex officiis ea quas</div>
@@ -51,6 +61,66 @@
         <div class="item">Lorem ipsum dolor, sit amet consectetur </div>
         <div class="item">Lorem ipsum dolor, sit amet consectetur </div>
     </div>
+    <br><br>
 
+    <p>center</p>
+    <div class="container center">
+        <div class="item">Lorem ipsum dolor sit amet consectetur </div>
+        <div class="item">adipisicing elit. Pariatur, </div>
+        <div class="item">facere vitae ex officiis ea quas</div>
+        <div class="item"> voluptatem asperiores suscipit exercitationem nemo</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur </div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur </div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur </div>
+    </div>
+    <br><br>
+
+    <p>flex-start</p>
+    <div class="container flex-start">
+        <div class="item">Lorem ipsum dolor sit amet consectetur </div>
+        <div class="item">adipisicing elit. Pariatur, </div>
+        <div class="item">facere vitae ex officiis ea quas</div>
+        <div class="item"> voluptatem asperiores suscipit exercitationem nemo</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur </div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur </div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur </div>
+    </div>
+    <br><br>
+
+    <p>flex-end</p>
+    <div class="container chuchu">
+        <div class="item">Lorem ipsum dolor sit amet consectetur </div>
+        <div class="item">adipisicing elit. Pariatur, </div>
+        <div class="item">facere vitae ex officiis ea quas</div>
+        <div class="item"> voluptatem asperiores suscipit exercitationem nemo</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur </div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur </div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur </div>
+    </div>
+    <br><br>
+
+    <p>space-around</p>
+    <div class="container space-around">
+        <div class="item">Lorem ipsum dolor sit amet consectetur </div>
+        <div class="item">adipisicing elit. Pariatur, </div>
+        <div class="item">facere vitae ex officiis ea quas</div>
+        <div class="item"> voluptatem asperiores suscipit exercitationem nemo</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur </div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur </div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur </div>
+    </div>
+    <br><br>
+
+    <p>space-between</p>
+    <div class="container space">
+        <div class="item">Lorem ipsum dolor sit amet consectetur </div>
+        <div class="item">adipisicing elit. Pariatur, </div>
+        <div class="item">facere vitae ex officiis ea quas</div>
+        <div class="item"> voluptatem asperiores suscipit exercitationem nemo</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur </div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur </div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur </div>
+    </div>
+    <br><br>
 </body>
 </html>
