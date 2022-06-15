@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fudamentos-flex-basi</title>
+    <style>
+        .flex-container{
+            display: flex;
+            border: 1px solid black;
+            max-width: 300px;
+           
+        }
+
+        .item{
+            background-color: coral;
+            margin: 5px;
+            text-align: center;
+            color: white;
+        }
+
+        .b-auto{
+            flex-basis: auto;
+        }
+
+        .fg-1{
+            flex-grow: 1;
+        }
+    </style>    
+
+</head>
+<body>
+    <div class="flex-container">
+        <div class="item  b-auto fg-1">B</div>
+        <div class="item  b-auto fg-1">BBB</div>
+        <div class="item b-auto fg-1">C</div>
+        <div class="item b-auto fg-1">CDE</div>
+
+    </div>
+    
+</body>
+</html>
